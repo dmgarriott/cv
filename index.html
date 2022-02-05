@@ -5,78 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danny's Personal Site</title>
+    <title>Danny Garriott</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img src="images/Danny.jpg" alt="danny profile picture">
-            </td>
-            <td>
-                <h1>Danny Garriott</h1>
-                <p><em>Data Operations Engineer</em></p>
-                <p>I have worked in the tech indstry for over 10 years. I enjoy playing board games and spending time
-                    with my
-                    family.</p>
-            </td>
-        </tr>
-    </table>
-
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>The Art Institute of Seattle</li>
-        <ul>
-            <li>Media Arts and Animation</li>
-        </ul>
-        <li>Wetern Governor's University</li>
-        <ul>
-            <li>Cyber Security and Information Assurance</li>
-        </ul>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table>
-        <thead>
-            <th>Dates</th>
-            <th>Work</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2010 - 2019</td>
-                <td>Business Intelligence Engineer</td>
-            </tr>
-            <tr>
-                <td>2019</td>
-                <td>Data Operations Engineer</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tbody>
-            <tr>
-                <td>Pentaho Data Integration
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Guitar</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Crocheting</td>
-                <td>⭐⭐</td>
-            </tr>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Danny</h1>
+        <h2>a data <span class="text-underline">operations</span> engineer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profile-img" src="images/Danny.jpg" alt="profile-img">
+            <h2>Hello.</h2>
+            <p class="hello-text">I am a Data Operations Engineer. I enjoy board gaming, crocheting and spending time
+                with
+                family.
+            </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="skill-etl" src="images/ETL.png" alt="etl-img">
+                <h3>ETL and Database Management</h3>
+                <p>I began working at a tech company and had an interest in moving data from one
+                    place to
+                    another. An opportunity came up that allowed me to become the sole ETL developer and I have been
+                    doing that in some form or another since.</p>
+            </div>
+            <div class="skill-row">
+                <img class="skill-games" src="images/board-games.png" alt="crochet-img">
+                <h3>Board Games</h3>
+                <p>I love collecting board games, but most of all I love playing board games! Board games, for me, offer
+                    a tactile experience that I can't get from the computer. Solo or with friends I can't get enought!
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Hit me up if you want to talk board games!</h3>
+            <p class="contact-message">Do you like board games and data? Let's run SQL queries while battiling bad guys
+                in a dungeon!</p>
+            <a class="btn" href="mailto:dmgarriott@gmail.com">Contact Me</a>
+        </div>
+    </div>
 
 
-        </tbody>
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact.html">Contact Me</a>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/danielgarriott">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <p class="copyright">© 2022 Danny Garriott.</p>
+    </div>
+
 </body>
 
 </html>
